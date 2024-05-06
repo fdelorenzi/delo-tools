@@ -12,7 +12,7 @@ export default function ContentFormatter() {
 
   const unescapeString = (str) => {
     // Unescape new lines and quotes, and cleanup the string
-    return cleanupString(str.replace(/\\n/g, "\n").replace(/\\(['"])/g, "$1"));
+    return str.replace(/\\n/g, "\n").replace(/\\(['"])/g, "$1");
   };
 
   const isJSON = (str) => {
