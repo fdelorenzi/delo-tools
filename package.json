@@ -1,0 +1,50 @@
+{
+    "name": "delo-tools",
+    "version": "0.4.4",
+    "licenes": "MIT",
+    "scripts": {
+        "start": "webpack serve --mode development --open --hot",
+        "build": "webpack --mode production"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.5.2",
+        "assert": "^2.1.0",
+        "browser-request": "^0.3.3",
+        "buffer": "^6.0.3",
+        "crypto": "^1.0.1",
+        "crypto-browserify": "^3.12.0",
+        "https-browserify": "^1.0.0",
+        "net": "^1.0.2",
+        "path-browserify": "^1.0.1",
+        "querystring-es3": "^0.2.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "redact-pii": "^3.4.0",
+        "sql-formatter": "^15.3.1",
+        "sqlformatter": "^0.1.0",
+        "stream": "^0.0.2",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "tls": "^0.0.1",
+        "typeface-roboto": "^1.1.13",
+        "url": "^0.11.3",
+        "util": "^0.12.5",
+        "vm-browserify": "^1.1.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.6",
+        "@babel/preset-env": "^7.23.6",
+        "@babel/preset-react": "^7.23.6",
+        "autoprefixer": "^10.4.19",
+        "babel-loader": "^8.2.3",
+        "css-loader": "^6.7.1",
+        "cssnano": "^7.0.1",
+        "html-webpack-plugin": "^5.5.0",
+        "postcss-loader": "^8.1.1",
+        "style-loader": "^3.3.1",
+        "tailwindcss": "^3.4.3",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.9.2"
+    }
+}
