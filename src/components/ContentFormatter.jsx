@@ -1,4 +1,5 @@
 import React from 'react';
+import { format } from 'sql-formatter';
 
 export default function ContentFormatter() {
   const [input, setInput] = React.useState('');
@@ -36,7 +37,7 @@ export default function ContentFormatter() {
 
   const formatSQL = (str) => {
     // Use sql-formatter to format the SQL string
-    return sqlFormatter.format(str);
+    return format(str);
   };
 
   const formatXML = (str) => {
