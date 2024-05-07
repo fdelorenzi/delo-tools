@@ -78,6 +78,9 @@ export default function ContentFormatter() {
 
   return (
     <div id="content-formatter" className="mt-6">
+      <h1 className="text-3xl font-bold text-center my-10">
+       Unescaper & Formatter
+      </h1>     
       <textarea
         className="w-full p-2 text-gray-900 rounded-lg"
         rows="6"

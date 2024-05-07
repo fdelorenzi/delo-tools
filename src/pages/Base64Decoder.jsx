@@ -30,6 +30,9 @@ export default function Base64Decoder() {
 
   return (
     <div id="base64-decoder"> {/* Added an ID for navigation */}
+      <h1 className="text-3xl font-bold text-center my-10">
+        Base64 Decoder
+      </h1>
       <textarea
         className="w-full p-2 text-gray-900 rounded-lg"
         rows="4"

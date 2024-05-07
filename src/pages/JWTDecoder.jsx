@@ -32,6 +32,9 @@ export default function JWTDecoder() {
 
   return (
     <div id="jwt-decoder" className="mt-6">
+      <h1 className="text-3xl font-bold text-center my-10">
+        JWT Decoder
+      </h1>
       <textarea
         className="w-full p-2 text-gray-900 rounded-lg"
         rows="4"

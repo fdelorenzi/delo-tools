@@ -1,5 +1,9 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const dotenv = require('dotenv')
+const webpack = require('webpack')
+
+dotenv.config();
 
 module.exports = {
   entry: "./src/index.js",
@@ -43,6 +47,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./public/index.html",
     }),
+    new webpack.ProvidePlugin({
+        process: 'process/browser'
+     })
   ],
   devServer: {
     static: {
@@ -50,5 +57,6 @@ module.exports = {
     },
     compress: true,
     port: 3000,
+    historyApiFallback: true,
   },
 };
