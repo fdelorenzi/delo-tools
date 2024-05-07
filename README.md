@@ -11,7 +11,9 @@ During a lunch break, I dedicated an hour to create a small, browser-based Devel
 - **JWT Decoder**: Decode and analyze JSON Web Tokens (JWTs).
 - **Un-escaper and Formatter**: Un-escape and format SQL, XML, JSON values from log entries and objects.
 - **SQL Formatter**: Cleanly format and indent your SQL queries for better readability.
-  
+- **Hash Generator**:  Generate hashes using various algorithms like MD5, SHA-1, SHA-256, and more.
+- **Random Data Generator**: Generate random data, including ID, UDID, password, and personal information, for testing purposes.
+
 Live URL: [https://tools.delorenzi.me](https://tools.delorenzi.me)
 
 ## Frequently Asked Questions (FAQ)
