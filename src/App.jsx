@@ -9,6 +9,7 @@ import ContentFormatter from "./pages/ContentFormatter";
 import Base64Decoder from "./pages/Base64Decoder";
 import HashGenerator from "./pages/HashGenerator";
 import RandomDataGenerator from "./pages/RandomDataGenerator";
+import ByteArrayDecoder from "./pages/ByteArrayDecoder";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/sql-formatter" element={<SQLFormatter />} />
           <Route path="/hash-generator" element={<HashGenerator />} />
           <Route path="/random-data-generator" element={<RandomDataGenerator />} />
+          <Route path="/byte-array-decoder" element={<ByteArrayDecoder />} />
 
         </Routes>
       </div>

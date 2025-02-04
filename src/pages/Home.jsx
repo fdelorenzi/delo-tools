@@ -63,6 +63,13 @@ export default function Home() {
             iconClass="fas fa-user-secret"
           />
         </Link>
+        <Link to="/byte-array-decoder">
+          <ToolCard
+            title="Byte Array Decoder"
+            description="Decode byte arrays into human-readable formats, supporting various encoding standards."
+            iconClass="fas fa-file-code"
+          />
+        </Link>
       </div>
     </>
   );
